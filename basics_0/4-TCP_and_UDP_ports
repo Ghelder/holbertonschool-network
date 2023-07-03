@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Display information about TCP sockets in the listening state, including the process identifier (PID) and the name of the program associated with each socket.
+# -t : Show only TCP sockets.
+# -l: Show only sockets in listening state.
+# -n : Display IP addresses and port numbers in numeric format.
+# -p: Show the PID and the name of the program associated with each socket.
+
+netstat -tlnp
